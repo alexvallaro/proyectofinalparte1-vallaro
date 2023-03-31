@@ -2,7 +2,12 @@
 
 const ButtonAddCart = () => {
     return (
-        <button>Ver detalles</button>
+        <button id="AddCart">
+            <div className="AddCarrito">
+                <i className="bi bi-cart-plus"></i>
+            </div>
+
+        </button>
     )
 }
 
