@@ -1,5 +1,6 @@
 import "./NavBar.css"
 import ItemListContainer from "../ItemListContainer/ItemListContainer";
+import CartWidget from "../CartWidget/CartWidget";
 //el logo se importa aca. Primero se hace otro componente.js
 
 
@@ -22,6 +23,8 @@ const NavBar = () => {
             </nav>
 
             <div className="containerCart">
+                <CartWidget />
+
 
             </div>
         </header>
