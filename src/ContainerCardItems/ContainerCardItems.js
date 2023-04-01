@@ -11,6 +11,28 @@ const ContainerCardItems = () => {
         .then(resp => setDatos(resp))
         .catch(error => console.log(error))
     }, [])
+    
+    return(
+        <>
+            {                
+                    <CardItem />                            
+            }
+        </>       
+    )
+}
+
+export default ContainerCardItems;
+
+/*
+
+const ContainerCardItems = () => {
+    const [ datos, setDatos ] = useState ( [] );
+    
+    useEffect(() => {
+        fetchSimulation(Products, 3000)
+        .then(resp => setDatos(resp))
+        .catch(error => console.log(error))
+    }, [])
 
     return(
         <>
@@ -25,8 +47,6 @@ const ContainerCardItems = () => {
                 })
             }
 
-        </>       
-    )
-}
+        </>       // products is not defined ??, no me reconoce el array ???
 
-export default ContainerCardItems;
+*/
