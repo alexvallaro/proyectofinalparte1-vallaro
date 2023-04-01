@@ -69,14 +69,16 @@ imagen
     border: double 1px green;
     height: 15%;
     padding: 5pt;
+    display: flex;    
     justify-content: center;
+    justify-content: space-between;
 }
 
 .buttons #detalles {
     background-color: yellow;
     border-radius: 10%;
     border: none;
-    width: 50pt;
+    width: 70%;
     }
 
 .buttons #detalles:hover{
@@ -98,7 +100,7 @@ imagen
     
 }
 
-.bi #bi-cart-plus{
+.buttons #addCart bi{
     width: 30pt;
 }
 
