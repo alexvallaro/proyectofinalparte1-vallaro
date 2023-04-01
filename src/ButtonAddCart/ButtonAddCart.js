@@ -1,4 +1,4 @@
-//css
+import "../CardItem/CardItem.css";
 
 const ButtonAddCart = () => {
     return (

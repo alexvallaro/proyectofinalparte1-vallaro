@@ -8,7 +8,7 @@ const Description = (props) => {
             </h3>
 
             <div className="description">
-                <span className="descripcionTitle">Descripcion</span>
+                <span className="descripcionTitle">Descripcion: </span>
                 <p className="parrafo">
                     {props.parrafo}
 
@@ -20,8 +20,8 @@ const Description = (props) => {
             </span>           
 
             <span className="precio">
-                {props.precio}
-                
+                ${props.precio}
+
             </span>
         </div>
     )
