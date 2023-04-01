@@ -1,6 +1,6 @@
 const fetchSimulation = () => {
     return new Promise((resolve, reject) =>{
-        resolve(dataBase);
+        resolve();
         reject(new Error("algo salio mal"))
     })
 }

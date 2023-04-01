@@ -7,13 +7,13 @@ import ButtonAddCart from "../ButtonAddCart/ButtonAddCart";
 // import ImgPrueba "../"
 
 
-const CardItem = () => {
+const CardItem = (props) => {
     return (
         <div className="cardItems">
             <Imagen />
             <Description title="remera??"
             cantidad = {5}
-            precio={20000}
+            precio={props.precio}
             />
             <div className="buttons">
                 <ButtonDetalles/>
